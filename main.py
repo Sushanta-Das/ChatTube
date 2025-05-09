@@ -16,7 +16,7 @@ if "AZURE_OPENAI_API_KEY" not in os.environ:
     os.environ["AZURE_OPENAI_API_KEY"] = getpass.getpass(
         "Enter your AzureOpenAI API key: "
     )
-os.environ["AZURE_OPENAI_ENDPOINT"] = "https://sushantaopenai.openai.azure.com/"
+
 
 from langchain_openai import AzureOpenAIEmbeddings
 
